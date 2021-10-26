@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title> Day & Night </title>
+</head>
+<body>
+<style>
+ h2,p {
+  color: SlateBlue;
+  text-align: center;
+  font-size: 30px;
+  }
+ 
+</style>
+
+
+<h2> Home background changing with day and night buttons</h2>
+<p style="color:yellow";> Today, we are going to see some changing effects of day and night which wil be applicable to a house. </p>
+
+<center>
+<img id="Home" src="P1 Day.jpg" height="400" width="400">
+
+<style type="text/css">
+.btn-group {
+   border: none;
+   color: white;
+   padding: 15px 32 px;
+   text-align: center;
+   font-size: 20px;
+   font-family: Lucida Handwriting;
+   display: inline-block;
+   }
+   
+ /* Add a background color on hover */
+.btn-group button:hover {
+  background-color: rgba(255, 0, 0, 0.4);
+  }
+</style>
+</center>
+<center>
+
+<div class="btn-group">
+
+<button onclick="document.getElementById('Home').src='P1 Day.jpg'"> Day </button>
+<button onclick="document.getElementById('Home').src='P1 Night.jpg'"> Night </button>
+</div>
+</center>
+
+
+</body>
+</html>
